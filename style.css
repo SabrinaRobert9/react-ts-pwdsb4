@@ -1,0 +1,86 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 20px;
+  gap: 15px;
+}
+
+.secound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+
+.centerTable {
+  border: 1px solid rgb(182, 182, 182);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 100%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 30px;
+  background: #222;
+}
+
+a,
+li {
+  text-decoration: none;
+}
+
+.lists a,
+.lists li {
+  color: #fff;
+}
+
+.circle {
+  list-style: circle;
+}
+
+.number {
+  list-style: decimal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(75, 75, 241);
+}
+
+body {
+  overflow-x: hidden;
+}
